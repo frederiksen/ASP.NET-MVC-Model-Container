@@ -1,9 +1,7 @@
 # ASP.NET-MVC-Model-Container
 Container class that holds multiple models that are shared by a ASP.NET MVC controller and a Razor view
 
-Example use:
-
-Controller
+Controller use:
 ```cs
 public class ArchiveController : Controller
 {
@@ -24,7 +22,7 @@ public class ArchiveController : Controller
 }
 ```
 
-View
+View use:
 ```cs
 @using Models
 @model ModelCollection
