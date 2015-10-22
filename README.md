@@ -3,7 +3,7 @@ Container class that holds multiple models that are shared by a ASP.NET MVC cont
 
 Controller use:
 ```cs
-public class ArchiveController : Controller
+public class SampleController : Controller
 {
   public ActionResult Index()
   {
